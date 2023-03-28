@@ -1,4 +1,6 @@
-
+let number;
+let operator;
+let anotherNumber;
 
 const add = function(...numbers) {
 	const total = numbers.reduce(function (previousValue, currentValue) {
@@ -28,7 +30,15 @@ const divide = function(...numbers) {
       return total;
 }
 
-console.log(add(1,2));
-console.log(subtract(1,2));
-console.log(multiply(1,2));
-console.log(divide(1,2));
+const operate = function(number, anotherNumber, operator) {
+    if (operator === '+') {
+         return add(number, anotherNumber);
+    } else if (operator === '-') {
+        return subtract(number, anotherNumber);
+    } else if (operator === '*') {
+        return multiply(number, anotherNumber);
+    } else if (operator === '/') {
+        return divide(number, anotherNumber);
+    }
+};
+
