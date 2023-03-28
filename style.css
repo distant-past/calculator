@@ -1,7 +1,49 @@
+#display {
+    margin:5px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .container {
     
 }
 
 .buttons {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    
 }
 
+.numbersRowOne {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+}
+
+.numbersRowTwo {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+}
+
+.numbersRowThree {
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom:5px;
+}
+
+.functions {
+    display:flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin:5px;
+}
+
+.functionButtons {
+}
